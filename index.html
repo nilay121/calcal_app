@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>CalCal — Smart Calorie Tracker</title>
+<meta name="description" content="CalCal — AI-powered calorie tracker that uses your phone's camera to analyze food, estimate calories, and suggest workouts." />
+<meta name="author" content="Gemini">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="favicon.png">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+<header class="site-header">
+<div class="container header-inner">
+<a class="brand" href="#hero">CalCal</a>
+<nav class="nav" id="nav">
+<a href="#features">Features</a>
+<a href="#screenshots">Screenshots</a>
+<a href="#words-to-live-by">Words to Live By</a>
+<a href="#download">Download</a>
+<a href="#contact">Contact</a>
+</nav>
+<div class="header-right">
+<button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+<i class="fas fa-moon"></i>
+</button>
+<button class="hamburger" id="hamburger">☰</button>
+</div>
+</div>
+</header>
+
+
+<main>
+<section id="hero" class="hero gradient-bg">
+<div class="container hero-inner">
+<div class="hero-copy">
+<h1>Transform How You Track Calories</h1>
+<p>CalCal leverages AI to make nutrition tracking effortless. Simply snap a picture of your meal to get instant calorie insights and personalized exercise recommendations.</p>
+<div class="hero-ctas">
+<a class="btn primary" href="https://play.google.com/store/apps/details?id=com.test.tensortapp&hl=en" target="_blank" rel="noopener noreferrer">Download on Google Play</a>
+<a class="btn secondary" href="#features">Explore Features</a>
+</div>
+</div>
+
+<div class="hero-media">
+<img src="assets/phone-mockup.png" alt="CalCal App Preview on a smartphone" />
+</div>
+</div>
+</section>
+
+<section id="features" class="container features">
+<h2>Powerful Features</h2>
+<div class="feature-grid">
+<article class="feature">
+<div class="feature-icon"><i class="fas fa-robot"></i></div>
+<h3>AI Food Recognition</h3>
+<p>Automatically detect meals and get accurate calorie estimates through our advanced computer vision models.</p>
+</article>
+<article class="feature">
+<div class="feature-icon"><i class="fas fa-bullseye"></i></div>
+<h3>Personalized Recommendations</h3>
+<p>Custom workouts and nutrition goals designed for your body type, age, and lifestyle.</p>
+</article>
+<article class="feature">
+<div class="feature-icon"><i class="fas fa-chart-line"></i></div>
+<h3>Track Your Progress</h3>
+<p>Visualize your journey with detailed charts and reports on your eating habits and fitness achievements.</p>
+</article>
+<article class="feature">
+<div class="feature-icon"><i class="fas fa-magic"></i></div>
+<h3>Smart Recipe Generator</h3>
+<p>Discover smarter meal planning with our AI-powered recipe builder from a photo of your ingredients.</p>
+</article>
+</div>
+</section>
+
+<section id="screenshots" class="screenshots">
+<div class="container">
+<h2>App Screenshots</h2>
+
+<!-- Section 1: Dashboard Overview -->
+<div class="screenshot-section">
+<div class="screenshot-row">
+<div class="screenshot-image">
+<img src="images/dashboard.png" alt="CalCal app dashboard overview">
+</div>
+<div class="screenshot-features">
+<h3>Your Daily Dashboard</h3>
+<p>Get a comprehensive view of your nutrition and fitness journey at a glance.</p>
+<ul class="feature-bullets">
+<li><span class="bullet-icon">📊</span> <strong>Real-time Tracking:</strong> Monitor calories, macros, and nutrients</li>
+<li><span class="bullet-icon">🎯</span> <strong>Goal Progress:</strong> Visual indicators of daily targets</li>
+<li><span class="bullet-icon">⚡</span> <strong>Quick Actions:</strong> Fast access to meal logging and exercises</li>
+<li><span class="bullet-icon">📈</span> <strong>Performance Insights:</strong> Detailed statistics and trends</li>
+</ul>
+</div>
+</div>
+</div>
+
+<!-- Section 2: Meal Logging & Tracking -->
+<div class="screenshot-section accent-blue">
+<div class="container">
+<h3 class="section-title">Meal Management Made Easy</h3>
+<p class="section-subtitle">Effortlessly log, track, and manage all your meals with AI-powered insights</p>
+<div class="screenshot-grid-3">
+<div class="screenshot-card">
+<div class="card-image">
+<img src="images/log_meal_menu.png" alt="Log meal menu interface">
+</div>
+<div class="card-content">
+<h4>Quick Logging</h4>
+<p>Add meals in seconds with our intuitive interface. Snap, scan by barcode, or add manually.</p>
+</div>
+</div>
+<div class="screenshot-card">
+<div class="card-image">
+<img src="images/meal history.png" alt="Meal history view">
+</div>
+<div class="card-content">
+<h4>Meal History</h4>
+<p>View your complete meal history with detailed timestamps and calorie breakdowns for better insights.</p>
+</div>
+</div>
+<div class="screenshot-card">
+<div class="card-image">
+<img src="images/meal_nutrients.png" alt="Nutritional information breakdown">
+</div>
+<div class="card-content">
+<h4>Nutrient Breakdown</h4>
+<p>Analyze proteins, carbs, fats, and micronutrients. Understand exactly what you're consuming.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Section 3: Exercise Tracking -->
+<div class="screenshot-section accent-green">
+<div class="container">
+<h3 class="section-title">Track Your Workouts</h3>
+<p class="section-subtitle">Log exercises and get personalized workout recommendations based on your goals</p>
+<div class="screenshot-grid-2">
+<div class="screenshot-card">
+<div class="card-image">
+<img src="images/log_exercise_menu.png" alt="Exercise logging menu">
+</div>
+<div class="card-content">
+<h4>Exercise Logging</h4>
+<p>Easily log cardio, strength, or custom workouts. Track duration, intensity, and calories burned.</p>
+</div>
+</div>
+<div class="screenshot-card">
+<div class="card-image">
+<img src="images/exercise_history.png" alt="Workout history and statistics">
+</div>
+<div class="card-content">
+<h4>Workout History</h4>
+<p>View your complete exercise history with stats on duration, frequency, and total calories burned.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Section 4: Smart Meal Builder -->
+<div class="screenshot-section accent-purple">
+<div class="container">
+<h3 class="section-title">AI-Powered Meal Builder</h3>
+<p class="section-subtitle">Generate personalized meal suggestions based on your preferences and calorie goals</p>
+<div class="screenshot-grid-2">
+<div class="screenshot-card">
+<div class="card-image">
+<img src="images/ai_meal_builder.png" alt="AI meal builder interface">
+</div>
+<div class="card-content">
+<h4>Smart Recipe Generation</h4>
+<p>AI suggests delicious recipes tailored to your dietary preferences, available ingredients, and calorie targets.</p>
+</div>
+</div>
+<div class="screenshot-card">
+<div class="card-image">
+<img src="images/ai_meal_details.png" alt="AI meal details and nutritional info">
+</div>
+<div class="card-content">
+<h4>Detailed Meal Analysis</h4>
+<p>Get complete nutritional breakdowns, ingredients lists, and cooking instructions for every generated meal.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="words-to-live-by" class="container testimonials">
+<h2>Words to Live By</h2>
+<div class="testimonial-grid">
+<article class="testimonial">
+<p>"Fitness isn't about building a better body. It's about building a better life."</p>
+<footer>
+<cite>— Jillian Michaels</cite>
+</footer>
+</article>
+<article class="testimonial">
+<p>"The food you eat can either be the safest & most powerful form of medicine…or the slowest form of poison."</p>
+<footer>
+<cite>— Ann Wigmore</cite>
+</footer>
+</article>
+<article class="testimonial">
+<p>"Take care of your body. It's the only place you have to live in."</p>
+<footer>
+<cite>— Jim Rohn</cite>
+</footer>
+</article>
+</div>
+</section>
+
+<section id="download" class="download gradient-bg-2">
+<div class="container">
+<h2>Get Started with CalCal Today</h2>
+<p>Take the first step towards a healthier lifestyle. Download CalCal now and revolutionize your nutrition tracking.</p>
+<a class="btn primary big" href="https://play.google.com/store/apps/details?id=com.test.tensortapp&hl=en" target="_blank" rel="noopener noreferrer">Download for Free</a>
+</div>
+</section>
+
+<section id="contact" class="container contact">
+<h2>Contact Us</h2>
+<p>Have questions or feedback? We'd love to hear from you.</p>
+<form onsubmit="sendEmail(); return false;">
+<input type="text" id="name" name="name" placeholder="Your Name" required>
+<input type="email" id="email" name="email" placeholder="Your Email" required>
+<textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+<button type="submit" class="btn primary">Send Message</button>
+</form>
+</section>
+</main>
+
+<footer class="site-footer">
+<div class="container footer-inner">
+<div class="footer-brand">
+<h3>CalCal</h3>
+<p>Smart Calorie Tracking</p>
+</div>
+<div class="footer-social">
+<a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+<a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+<a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+</div>
+<div class="footer-copyright">
+<p>&copy; <span id="year"></span> CalCal. All rights reserved.</p>
+</div>
+</div>
+</footer>
+
+<button id="back-to-top" class="btn primary"><i class="fas fa-arrow-up"></i></button>
+<script src="script.js"></script>
+</body>
+</html>
