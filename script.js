@@ -28,7 +28,7 @@ function sendEmail() {
   var email = document.getElementById("email").value;
   var message = document.getElementById("message").value;
   var subject = "Feedbacks/Questions";
-  var mailto_link = 'mailto:kushawaha.nilay.foreign@gmail.com?subject=' + subject + '&body=' + "Name: " + name + "%0A" + "Email: " + email + "%0A" + "Message: " + message;
+  var mailto_link = 'mailto:info@calcal.fit?subject=' + subject + '&body=' + "Name: " + name + "%0A" + "Email: " + email + "%0A" + "Message: " + message;
   window.location.href = mailto_link;
 }
 
